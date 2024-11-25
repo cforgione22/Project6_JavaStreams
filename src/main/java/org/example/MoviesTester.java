@@ -1,3 +1,5 @@
+package org.example;
+
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.Stream;
@@ -34,7 +36,7 @@ public class MoviesTester
     */
    public static List<String> commonInitialWords(Stream<Movie> stream) {
       //TODO: Add your work here
-
+      return null;
    }
       
       

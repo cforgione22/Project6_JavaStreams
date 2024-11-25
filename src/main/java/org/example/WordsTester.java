@@ -1,3 +1,7 @@
+package org.example;
+
+import org.example.Words;
+
 import java.io.IOException;
 import java.util.List;
 

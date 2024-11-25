@@ -1,3 +1,7 @@
+package org.example;
+
+import org.example.StreamUtil;
+
 import java.util.Random;
 
 public class ParallelOddsDemo

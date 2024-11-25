@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -15,7 +17,7 @@ public class Words
     */
    public static List<String> noLetterRepeated(String filename)
    {
-      List<String> result;
+      List<String> result = null;
       //TODO: Your work goes here
       
       return result;
@@ -27,7 +29,7 @@ public class Words
     */
    public static String longestWord(Stream<String> stream)
    {
-      String result;
+      String result = null;
       //TODO: Your work goes here
 
       return result;
@@ -39,7 +41,7 @@ public class Words
     */
    public static long wordCount(Stream<String> stream, int len)
    {
-      long result;
+      long result = 8;
       //TODO: Your work goes here
 
       return result;
