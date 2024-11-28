@@ -29,22 +29,18 @@ public class StreamUtil {
 //            String intArrayString = Arrays.toString(intArray);
             if (isParallel) {
                 oddNumbers.parallel();
-                System.out.println("The time it takes to count the number of odd numbers using an infinite stream: " + count);
             }
             long endTime = System.nanoTime();
 
             long timeItTook = endTime - startTime;
-
+            System.out.println("The time it takes to count the number of odd numbers using an infinite stream was " + timeItTook + " nano seconds.");
+            System.out.println("count: " + count);
 
         } catch (Exception e) {
 
         }
 
-        //• Stop the stream after n odd numbers have been generated.
 
-        //• Close the stream by getting a count of the numbers.
-        //• Use method System.nanoTime to measure the amount of time to complete the operation.
-        //• Use parallel streams if the parameter isParallel is true.
         //The main method calls timeOdds multiple times, sending it a random generator seeded with
         //a fixed value and n set to 10, 100, 1,000, up to 1,000,000,000.
 

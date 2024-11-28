@@ -8,7 +8,10 @@ import java.util.random.RandomGenerator;
 public class Main {
     public static void main(String[] args) {
         Random random = new Random();
-        StreamUtil.timeOdds(random, 6, false);
+        StreamUtil.timeOdds(random, 10, false);
+        StreamUtil.timeOdds(random, 100, false);
+        StreamUtil.timeOdds(random, 1000, false);
+        StreamUtil.timeOdds(random, 1000000000, false);
     }
 }
 
